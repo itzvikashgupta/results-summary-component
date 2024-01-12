@@ -23,7 +23,7 @@ This blog preview card solution presented here showcases a sleek and responsive 
 ### Links
 
 - Solution URL: [https://github.com/itzvikashgupta/results-summary-component]
-- Live Site URL: [https://result-summary-component-soln.netlify.app/]
+- Live Site URL: [https://results-summary-component-soln.netlify.app/]
 
 ## My Process
 
