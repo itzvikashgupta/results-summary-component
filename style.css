@@ -54,6 +54,7 @@ html {
 
 .wrapper {
   max-width: 144rem;
+  padding-inline: 2rem;
 }
 
 /***** css reset Section *****/
@@ -123,8 +124,7 @@ body {
   height: 100vh;
   display: grid;
   place-items: center;
-  grid-template-rows:90% 1fr;
-
+  grid-template-rows: 96% 1fr;
 }
 
 .flex-group {
@@ -170,7 +170,6 @@ body {
   max-width: 74rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-bottom: 2rem;
   box-shadow: 0.8rem 1.6rem 4.8rem hsl(var(--clr-neutral-hsl-700), 0.15);
   border-radius: var(--border-radius);
 }
@@ -266,6 +265,14 @@ footer {
     font-size: 56%;
   }
 
+  body {
+    display: block;
+  }
+
+  .wrapper {
+    padding-inline: 0;
+  }
+
   .grid-flow[data-spacing="large"] {
     gap: 3rem;
   }
@@ -273,6 +280,7 @@ footer {
   .result-summary {
     display: block;
     border-radius: 0 0 var(--border-radius) var(--border-radius);
+    margin-bottom: 2rem;
   }
   .section-title {
     font-size: 2rem;
@@ -291,5 +299,9 @@ footer {
     & .result-rank {
       font-size: var(--fs-650);
     }
+  }
+
+  footer {
+    padding-bottom: 2rem;
   }
 }
