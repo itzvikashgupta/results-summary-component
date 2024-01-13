@@ -123,6 +123,8 @@ body {
   height: 100vh;
   display: grid;
   place-items: center;
+  grid-template-rows:90% 1fr;
+
 }
 
 .flex-group {
